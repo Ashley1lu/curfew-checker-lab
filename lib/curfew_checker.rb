@@ -1,8 +1,17 @@
 def simple_curfew_checker(time)
+  if time >= 11
+ return "you're in trouble! Better get home quick!"
   # code goes here
+end
 end
 
 def curfew_checker(time)
+  if time == 11
+    return "You're in trouble!"
+    elsif time >= 11 
+    return "you're in trouble!"
+  else 
+    return "you can keep having fun"
   # code goes here
 end
 
